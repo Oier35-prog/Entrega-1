@@ -1,62 +1,61 @@
 <html>
-     <head>
-        <title><strong>Pagina web empresa</strong></title>
-         <link rel="stylesheet" href="css/archivo.css">
-    </head>
-    <body>
-        <header>
-            <img src="https://static.vecteezy.com/system/resources/previews/020/269/308/non_2x/robot-arm-icon-for-your-website-design-logo-app-ui-free-vector.jpg" alt="Logo_robot" width="55px" height="55px">
-            <h1>Navega por nuestros apartados</h1>
-            <nav>
-                <ul>
-                    <li><a href="Entrega-1.html">Inicio</a></li>
-                    <li><a href="proyecto.html">Proyectos</a></li>
-                    <li><a href="sesion.html">Inicio Sesion</a></li>
-                    <li><a href="registro.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section>
-                <h2><strong>Identificate</strong></h2>
-                <table border="4">
-                    <tr>
-                        <th>Inicia sesion</th>
-                        <th>Crear cuenta</th>
-                    </tr>
-                    <tr>
-                        <td>
-                            <form action="form.php" method="post">
-                             <input type="text" name="usuario">Usuario<br>
-                             <input type="email" name="email">Email<br>
-                             <input type="password" name="contraseña">Contrasena<br>
-                             <h3>Selecciona tu rol em la empresa</h3>
-                             <input type="radio" name="sector" value="programador" checked>Programador<br>
-                             <input type="radio" name="sector" value="tecnico" checked>Tecnico<br>
-                             <input type="radio" name="sector" value="otro" checked>Otro
-
-                            <input type="submit" value="Confirmar">
-                            </form>
-                        </td>
-                        <td>
-                            <form action="form.php">
-                                <input type="text" name="nuevo_usuario">Usiario nuevo<br>
-                                <input type="email" name="email_nuevo">Email nuevo<br>
-                                <input type="password" name="nueva_contraseña">Nueva contrasena<br>
-                                <h2>Selecciona tu nuevo rol en la empresa</h2>
-                                <input type="radio" name="sector_nuevo" value="programador_nuevo" checked>Programador<br>
-                                <input type="radio" name="sector_nuevo" value="tecnico_nuevo" checked>Tecnico<br>
-                                <input type="radio" name="sector_nuevo" value="otro_nuevo" checked>Otro
-
-                                <input type="submit" value="Confirmar">
-                            </form>
-                        </td>
-                    </tr>
-                </table>
-            </section>
-        </main>
-        <footer>
-            <p>Fundada en 2026</p>
-        </footer>
-    </body>
+<head>
+    <title>Pagina web empresa</title>
+    <link rel="stylesheet" href="css/archivo.css">
+</head>
+<body>
+    <header>
+        <img src="https://static.vecteezy.com/system/resources/previews/020/269/308/non_2x/robot-arm-icon-for-your-website-design-logo-app-ui-free-vector.jpg" alt="Logo_robot" width="55px" height="55px">
+        <h1>Navega por nuestros apartados</h1>
+        <nav>
+            <ul>
+                <li><a href="Entrega-1.html">Inicio</a></li>
+                <li><a href="proyecto.html">Proyectos</a></li>
+                <li><a href="sesion.html">Inicio Sesion</a></li>
+                <li><a href="registro.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2><strong>Identificate</strong></h2>
+            <table border="4">
+                <tr>
+                    <th>Inicia sesion</th>
+                    <th>Crear cuenta</th>
+                </tr>
+                <tr>
+                    <td>
+                        <form>
+                            <input type="text" name="usuario">Usuario<br>
+                            <input type="email" name="email">Email<br>
+                            <input type="password" name="contraseña">Contrasena<br>
+                            <h3>Selecciona tu rol</h3>
+                            <input type="radio" name="sector" value="programador" checked>Programador<br>
+                            <input type="radio" name="sector" value="tecnico">Tecnico<br>
+                            <input type="radio" name="sector" value="otro">Otro<br>
+                            <input type="button" value="Confirmar">
+                        </form>
+                    </td>
+                    <td>
+                        <form>
+                            <input type="text" name="nuevo_usuario">Usuario nuevo<br>
+                            <input type="email" name="email_nuevo">Email nuevo<br>
+                            <input type="password" name="nueva_contraseña">Nueva contrasena<br>
+                            <h2>Selecciona tu nuevo rol</h2>
+                            <input type="radio" name="sector_nuevo" value="programador_nuevo" checked>Programador<br>
+                            <input type="radio" name="sector_nuevo" value="tecnico_nuevo">Tecnico<br>
+                            <input type="radio" name="sector_nuevo" value="otro_nuevo">Otro<br>
+                            <input type="button" value="Confirmar">
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>Fundada en 2026</p>
+    </footer>
+    <script src="java.js"></script>
+</body>
 </html>
