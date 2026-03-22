@@ -26,7 +26,7 @@ function crearUsuarios() {
         console.log("Cuenta nueva creada");
     } else {
         alert("ERROR, completa todos los requisitos");
-        onsole.log("Error, en crear cuenta");
+        console.log("Error, en crear cuenta");
     }
 }
 
