@@ -5,8 +5,10 @@ function contacto() {
 
     if(nombreCliente !="" && nombreEmailEmpresa !="" && proyecto !=""){
         alert("Formulario enviado a: " + nombreEmailEmpresa+" por el encargo de "+nombreCliente);
+        console.log("Formulario enviado");
     }else{
-        alert("Completa los campos monimos de :CLIENTE , EMAIL EMPRESA y ¿DE QUE TRATA EL PROYECTO?. Para poder recivir la informacion minima de cara el presupuesto.")
+        alert("Completa los campos monimos de :CLIENTE , EMAIL EMPRESA y ¿DE QUE TRATA EL PROYECTO?. Para poder recivir la informacion minima de cara el presupuesto.");
+        console.log("Error, no acompletado los campos mimimos");
     }
 }
 let usuariosRegistrados = [];
@@ -21,8 +23,10 @@ function crearUsuarios() {
         usuariosRegistrados.push(nuevoUsuario);
         contrasenaRegistrados.push(nuevaContrasena);
         alert("Nuevo usuario creado: " + nuevoUsuario);
+        console.log("Cuenta nueva creada");
     } else {
         alert("ERROR, completa todos los requisitos");
+        onsole.log("Error, en crear cuenta");
     }
 }
 
@@ -39,7 +43,9 @@ function iniciarSesion() {
 
     if (OK == true) {
         alert("Inicio de sesion completado");
+        console.log("Inicio de sesion correcto");
     } else {
         alert("ERROR; usuario o contraseña incorrectos");
+        console.log("Error, inicio sesion");
     }
 }
